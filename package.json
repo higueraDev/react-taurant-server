@@ -1,0 +1,17 @@
+{
+  "name": "react-taurant",
+  "version": "1.0.0",
+  "description": "Application that serves restaurant list from Yelp API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "server": "nodemon index.js"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22"
+  }
+}
